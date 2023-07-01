@@ -1,20 +1,20 @@
 import {
-     mobile,
-     backend,
-     creator,
-     web,
-     javascript,
-     typescript,
      html,
      css,
-     reactjs,
-     redux,
+     javascript,
+     bootstrap,
      tailwind,
-     nodejs,
-     mongodb,
+     sass,
+     reactjs,
+     threejs,
      git,
-     figma,
-     docker,
+     github,
+     dart,
+
+     mobile,
+     backend,
+     // creator,
+     web,
      meta,
      starbucks,
      tesla,
@@ -22,7 +22,6 @@ import {
      carrent,
      jobit,
      tripguide,
-     threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -53,10 +52,10 @@ const services = [
           title: "Flutter Developer",
           icon: backend,
      },
-     {
-          title: "Content Creator",
-          icon: creator,
-     },
+     // {
+     //      title: "Content Creator",
+     //      icon: creator,
+     // },
 ];
 
 const technologies = [
@@ -73,44 +72,36 @@ const technologies = [
           icon: javascript,
      },
      {
-          name: "TypeScript",
-          icon: typescript,
-     },
-     {
-          name: "React JS",
-          icon: reactjs,
-     },
-     {
-          name: "Redux Toolkit",
-          icon: redux,
+          name: "Bootstrap",
+          icon: bootstrap,
      },
      {
           name: "Tailwind CSS",
           icon: tailwind,
      },
      {
-          name: "Node JS",
-          icon: nodejs,
+          name: "SASS",
+          icon: sass,
      },
      {
-          name: "MongoDB",
-          icon: mongodb,
+          name: "React JS",
+          icon: reactjs,
+     },
+     {
+          name: "GIT",
+          icon: git,
      },
      {
           name: "Three JS",
           icon: threejs,
      },
      {
-          name: "git",
-          icon: git,
+          name: "DART",
+          icon: dart,
      },
      {
-          name: "figma",
-          icon: figma,
-     },
-     {
-          name: "docker",
-          icon: docker,
+          name: "GITHUB",
+          icon: github,
      },
 ];
 

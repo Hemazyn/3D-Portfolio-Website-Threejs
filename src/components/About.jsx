@@ -31,11 +31,12 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn(",", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Passionate, Front-End Developer || Flutter Developer, located in Nigeria. With vast experience in building (frontend,flutter web and app) applications.Having serious passion for
+        Passionate, Front-End Developer || Flutter Developer, located in Nigeria. With vast experience in building (frontend, flutter web and app) applications.
+        Having serious passion for
         creating intuitive, dynamic user experiences, UI effects, animations and
         interested in the entire Frontend, Flutter spectrum. Help clients achieve their desire outcome, Join me down below and let’s get cracking!
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 mx-auto justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
